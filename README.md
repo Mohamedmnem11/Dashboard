@@ -11,18 +11,21 @@ src/
 │   ├── DriverList.jsx
 │   ├── RouteForm.jsx
 │   └── RouteList.jsx
+
 ├── pages/              # Application pages
 │   ├── DashboardPage.jsx
 │   ├── DriversPage.jsx
 │   ├── RoutesPage.jsx
 │   └── CalendarPage.jsx
+
 ├── data/               # Initial data
 │   └── mockData.js
 ├── App.jsx             # Main app component
 └── main.jsx
 
-____________________****___________________________
-Assumptions in works
+
+
+   Assumptions in works
 
 1_ Data is stored in local state (not in a database)
 
@@ -32,7 +35,6 @@ Assumptions in works
 
 4_ Calendar dates are based on the system's local date
 
-____________________****___________________________
 
 
 
@@ -48,7 +50,7 @@ Features
 
 
 
-____________________****___________________________
+
 
 Technologies Used
    
@@ -58,11 +60,14 @@ Tailwind CSS: Utility-first CSS framework
 date-fns: Date manipulation library
 React Icons: Icon library
 
-____________________****___________________________
+
 
 Your Name: Mohamed Abdelmonem Mahmoud
+
 Email: mohamedmnem90@gmail.com
+
 Project Link: repo: https://github.com/Mohamedmnem11/Dashboard.git
+
 Live Demo: Deploy in vercel :  https://dashboard-wnil-fgmuzfadh-mohamed-abdelmonems-projects-d0388c5b.vercel.app
 
 
@@ -70,6 +75,4 @@ Live Demo: Deploy in vercel :  https://dashboard-wnil-fgmuzfadh-mohamed-abdelmon
 
 
 
-└── mockData.js
-├── App.jsx             # المكون الرئيسي
-└── index.jsx           # نقطة الدخول
+
