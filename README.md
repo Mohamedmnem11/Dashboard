@@ -1,12 +1,75 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Structure
 
-Currently, two official plugins are available:
+src/
+├── components/          # Reusable components
+│   ├── Sidebar.jsx
+│   ├── MobileHeader.jsx
+│   ├── SearchBar.jsx
+│   ├── DriverForm.jsx
+│   ├── DriverList.jsx
+│   ├── RouteForm.jsx
+│   └── RouteList.jsx
+├── pages/              # Application pages
+│   ├── DashboardPage.jsx
+│   ├── DriversPage.jsx
+│   ├── RoutesPage.jsx
+│   └── CalendarPage.jsx
+├── data/               # Initial data
+│   └── mockData.js
+├── App.jsx             # Main app component
+└── main.jsx
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+____________________****___________________________
+Assumptions in works
 
-## Expanding the ESLint configuration
+1_ Data is stored in local state (not in a database)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2_ Each route can be assigned to only one driver at a time
+
+3_ Unavailable drivers cannot be assigned to routes
+
+4_ Calendar dates are based on the system's local date
+
+____________________****___________________________
+
+
+
+Features
+
+1- Dashboard with driver and route overview
+2- Driver management (add, view, assign routes)
+3- Route management (add, view, assign drivers)
+4- Calendar view for schedule visualization
+5- Responsive design for all device sizes
+
+
+
+
+
+____________________****___________________________
+
+Technologies Used
+   
+React: JavaScript library for building user interfaces
+React Router: For navigation between pages
+Tailwind CSS: Utility-first CSS framework
+date-fns: Date manipulation library
+React Icons: Icon library
+
+____________________****___________________________
+
+Your Name: Mohamed Abdelmonem Mahmoud
+Email: mohamedmnem90@gmail.com
+Project Link: repo: https://github.com/Mohamedmnem11/Dashboard.git
+Live Demo: Deploy in vercel :  https://dashboard-wnil-fgmuzfadh-mohamed-abdelmonems-projects-d0388c5b.vercel.app
+
+
+
+
+
+
+└── mockData.js
+├── App.jsx             # المكون الرئيسي
+└── index.jsx           # نقطة الدخول
