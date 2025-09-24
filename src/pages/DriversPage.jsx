@@ -11,7 +11,7 @@ const DriversPage = ({ drivers, routes, addDriver, assignDriver, unassignDriver 
   );
 
   return (
-    <div className="p-6">
+    <div className="p-0 md:p-6">
       <h1 className="text-3xl font-bold mb-6">Driver Management</h1>
       
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

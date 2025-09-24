@@ -16,7 +16,6 @@ code {
     monospace;
 }
 
-/* Custom styles for responsive sidebar */
 .sidebar-transition {
   transition: transform 0.3s ease-in-out;
 }
@@ -27,14 +26,13 @@ code {
   }
 }
 
-/* Ensure content area doesn't overlap with sidebar on large screens */
 @media (min-width: 1024px) {
   .content-area {
-    margin-left: 16rem; /* w-64 */
+    margin-left: 16rem; 
   }
 }
 
-/* Hide scrollbar for mobile sidebar */
+
 .sidebar-scroll::-webkit-scrollbar {
   display: none;
 }

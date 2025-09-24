@@ -15,7 +15,7 @@ const DashboardPage = ({ drivers, routes, driverSearch, setDriverSearch, routeSe
   );
 
   return (
-    <div className="p-6">
+    <div className="p-0 md:p-6">
       <h1 className="text-3xl font-bold mb-6">Dashboard Overview</h1>
       
       <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">

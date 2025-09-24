@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-// استيراد الايقونات من react-icons
+
 import { FaTachometerAlt, FaUser, FaRoute, FaCalendarAlt } from 'react-icons/fa';
 
 // import image from '../assets/176395467.jfif'
@@ -16,7 +16,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
 
   return (
     <>
-      {/* Mobile backdrop */}
+    
       {isOpen && (
         <div 
           className="fixed inset-0 bg-black bg-opacity-50 z-20 lg:hidden"
@@ -24,7 +24,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         ></div>
       )}
       
-      {/* Sidebar */}
+    
       <div 
         className={`fixed lg:static inset-y-0 left-0 z-30 w-64 bg-gray-800 text-white transform transition-transform duration-300 ease-in-out ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
